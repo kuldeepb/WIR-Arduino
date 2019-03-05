@@ -110,7 +110,7 @@ void WIR::Baudrate(int Set_Baudrate)
 			BR2 = BR2 + 55;
 		}
              
-		Serial.print("BR=");
+		Serial.print("B=");
 		delay(10);
 		Serial.write(BR1);
 		delay(10);
